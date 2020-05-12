@@ -1,5 +1,8 @@
 # Automation_of_Deployment
 End to end automation and for this I have created three JOBS in Jenkins *DevTeam*, *TestTeam*, *ProductionTeam*.
+<br/><br/>
+Here is the **Dashboard**,
+![](images/Dashboard.png)
 
 ### DevTeam
 The work of Dev Team is to update website using Git and then to push it on GitHub in `dev` branch.
