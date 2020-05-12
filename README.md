@@ -24,7 +24,7 @@ So the test team will deploy a container on docker and test the updates.
 If there are no problems then it will notify the Production Team.
 And at last it will fire up the Jenkins job *ProductionTeam*.
 
-* Running a **docker container**,
+* Running a testing environment as **docker container**,
 ![](images/TestShell.png)
 
 * For building *ProductionTeam Job* , select **Build other Projects**
@@ -34,3 +34,12 @@ And at last it will fire up the Jenkins job *ProductionTeam*.
 The work of production team is to deploy the updates on production environment.
 So the production team will merge the `dev` branch to `master` branch in GitHub.
 And it will launch the docker container with those updates.
+
+* In the **Source Code Management**, you have to give your Repo URL and your credentials for allow merging,
+![](images/proscm.png)
+
+* Running a production environment as **docker container**,
+![](images/proShell.png)
+
+* For **merging**,
+![](images/merge.png)
